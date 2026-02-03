@@ -1,0 +1,33 @@
+# Entorno virtual
+venv/
+env/
+.proyectos/
+
+# Archivos de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos de configuración locales
+*.env
+*.log
+*.sqlite3
+
+# Archivos de Jupyter/VSCode
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# Archivos de sistema (Windows / OneDrive)
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
+*.tmp
+
+# Archivos de dependencias
+*.egg-info/
+
+# Carpeta de OneDrive (no subir sincronizaciones locales)
+OneDrive/
